@@ -21,7 +21,7 @@
     width: 50%;
 }
 .ba-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -34,7 +34,7 @@
     position: absolute;
     width: 75%;
     height: 4px;
-    background-color: #9D2553;
+    background-color: #2eb82e;
     border-radius: 8px;
     left: 0;
     bottom: -12px;
@@ -42,7 +42,7 @@
 .ba-description {
     margin: 32px 0;
     color: #4d4b4b;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     letter-spacing: .8px;
     line-height: 1.8rem;
@@ -50,7 +50,7 @@
 /* Checks */
 .ba-checks {
     margin: 28px 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 22px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -70,7 +70,7 @@
     outline: transparent;
     background-color: #1A8EFD;
     font-size: 20px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     letter-spacing: .8px;
     cursor: pointer;
     transition: all .4s ease;

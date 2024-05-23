@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Doctor from "../Assets/doctor-picture.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarCheck, faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { useNavigate  } from "react-router-dom";
 import "../Styles/Hero.css";
 
@@ -36,38 +36,17 @@ function Hero() {
     <div className="section-container">
       <div className="hero-section">
         <div className="text-section">
-          <p className="text-headline">❤️ Health comes first</p>
           <h2 className="text-title">
-            Find your Doctor and make an Appointments
+            Aseara Cleaning Services Inc
           </h2>
           <p className="text-descritpion">
-            Talk to online doctors and get medical advice, online prescriptions,
-            refills and medical notes within minutes. On-demand healthcare
-            services at your fingertips.
+          Enjoy your free time and devote yourself completely to your business and your family without having to worry about the logistics of cleaning after business hours. Let Aseara undertake these tasks. Just let us know your needs and we will be happy to exceed your expectations.
           </p>
-          <button
-            className="text-appointment-btn"
-            type="button"
-            onClick={handleBookAppointmentClick}
-          >
-            <FontAwesomeIcon icon={faCalendarCheck} /> Book Appointment
-          </button>
-          <div className="text-stats">
-            <div className="text-stats-container">
-              <p>145k+</p>
-              <p>Receive Patients</p>
-            </div>
 
-            <div className="text-stats-container">
-              <p>50+</p>
-              <p>Expert Doctors</p>
-            </div>
-
-            <div className="text-stats-container">
-              <p>10+</p>
-              <p>Years of Experience</p>
-            </div>
-          </div>
+          <p className="text-descritpion" id="slogan">
+            You take care of your family and business and we clean!
+          </p>
+          
         </div>
 
         <div className="hero-image-section">

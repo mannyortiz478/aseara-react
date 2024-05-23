@@ -31,7 +31,7 @@ function Navbar() {
     <div className="navbar-section">
       <h1 className="navbar-title">
         <Link to="/">
-          Health <span className="navbar-sign">+</span>
+          Aseara
         </Link>
       </h1>
 
@@ -43,23 +43,23 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <a href="#services" className="navbar-links">
-            Services
-          </a>
-        </li>
-        <li>
           <a href="#about" className="navbar-links">
             About
           </a>
         </li>
         <li>
-          <a href="#reviews" className="navbar-links">
-            Reviews
+          <a href="#services" className="navbar-links">
+            Services
           </a>
         </li>
         <li>
-          <a href="#doctors" className="navbar-links">
-            Doctors
+          <a href="#offer" className="navbar-links">
+            Offers
+          </a>
+        </li>
+        <li>
+          <a href="#reviews" className="navbar-links">
+            Testimonials
           </a>
         </li>
       </ul>
@@ -70,7 +70,7 @@ function Navbar() {
         disabled={isButtonDisabled}
         onClick={handleChatBtnClick}
       >
-        <FontAwesomeIcon icon={faCommentDots} /> Live Chat
+      Contact Us
       </button>
 
       {/* Mobile */}
@@ -86,23 +86,18 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a onClick={openNav} href="#services">
-              Services
-            </a>
-          </li>
-          <li>
             <a onClick={openNav} href="#about">
               About
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#reviews">
-              Reviews
+            <a onClick={openNav} href="#offer">
+              Offers
             </a>
           </li>
           <li>
-            <a onClick={openNav} href="#doctors">
-              Doctors
+            <a onClick={openNav} href="#reviews">
+              Reviews
             </a>
           </li>
           <li>

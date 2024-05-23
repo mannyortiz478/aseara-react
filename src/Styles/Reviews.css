@@ -13,18 +13,18 @@
 .rw-text-title {
     margin: 16px 0;
     color: #6F7074;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 32px;
     font-weight: bold;
     letter-spacing: .7px;
 }
 .rw-text-num {
-    color: #178BFF;
+    color: #2eb82e;
 }
 .rw-text-desc {
     margin: 16px 0;
     color: black;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: .7px;
@@ -41,8 +41,8 @@
     position: absolute;
     top: -18px;
     left: -24px;
-    color: #178BFF;
-    font-family: 'Poppins', sans-serif;
+    color: #2eb82e;
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -51,8 +51,8 @@
     position: absolute;
     right: -18px;
     bottom: -24px;
-    color: #178BFF;
-    font-family: 'Poppins', sans-serif;
+    color: #2eb82e;
+    font-family: 'Roboto Slab', serif;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -61,7 +61,7 @@
     display: block;
     margin: 0 0 0 8px;
     color: black;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 24px;
     letter-spacing: .7px;
     line-height: 2.2rem;
@@ -74,7 +74,7 @@
     align-items: center;
 }
 .rw-reviewer-name {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 24px;
     font-weight: bold;
     letter-spacing: .8px;
@@ -82,7 +82,7 @@
 .rw-reviewer-place {
     margin: 6px 0 0 0;
     color: #6F7074;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: .8px;
@@ -98,7 +98,7 @@
     cursor: pointer;
 }
 .rw-next-btn:hover {
-    color: #178BFF;
+    color: #2eb82e;
 }
 /* Responsive */
 @media screen and (max-width: 700px) {
