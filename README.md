@@ -1,4 +1,4 @@
-# Health Plus
+# Aseara
 
 Welcome to the Aseara project repository! This is a React-based website aimed at providing professiaonl cleaning services to prospect clients.
 
